@@ -2,72 +2,91 @@ import pandas as pd
 import numpy as np
 import random
 import os
+import logging
+from typing import Optional
 
-def create_dataset():
-    np.random.seed(42)
-    random.seed(42)
-    
-    n_reviews = 10000
-    categories = ['Electronics', 'Clothing', 'Food', 'Home', 'Beauty', 'Books']
-    
-    # Base vocabularies
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+# Constants
+DEFAULT_N_REVIEWS = 10000
+CATEGORIES = ['Electronics', 'Clothing', 'Food', 'Home', 'Beauty', 'Books']
+DATA_PATH = os.path.join("data", "ShopSense_Reviews.csv")
+
+def generate_review_text(category: str) -> str:
+    """Generates synthetic review text based on the product category."""
     vocab_electronics = ['wireless', 'earbuds', 'battery', 'life', 'poor', 'excellent', 'charging', 'sound', 'screen', 'the', 'is', 'very']
     vocab_clothing = ['fabric', 'embroidery', 'cotton', 'shirt', 'dress', 'fit', 'size', 'color', 'the', 'is', 'a', 'very']
     vocab_generic = ['good', 'bad', 'okay', 'the', 'is', 'a', 'very', 'product', 'item']
     
-    data = []
-    
-    for i in range(n_reviews):
-        cat = random.choice(categories)
-        words = []
+    words = []
+    if category == 'Electronics':
+        if random.random() < 0.6:
+            words.append('earbuds')
+        words.extend(random.choices(vocab_electronics, k=random.randint(5, 12)))
+    elif category == 'Clothing':
+        words.extend(random.choices(vocab_clothing, k=random.randint(5, 12)))
+    else:
+        words.extend(random.choices(vocab_generic, k=random.randint(5, 12)))
         
-        if cat == 'Electronics':
-            # heavily inject 'earbuds' occasionally
-            if random.random() < 0.6:
-                words.append('earbuds')
-            words.extend(random.choices(vocab_electronics, k=random.randint(5, 12)))
-        elif cat == 'Clothing':
-            words.extend(random.choices(vocab_clothing, k=random.randint(5, 12)))
-        else:
-            words.extend(random.choices(vocab_generic, k=random.randint(5, 12)))
+    words.append('the')
+    
+    if category == 'Clothing' and random.random() < 0.05:
+        words.append('embroidery')
+        
+    return " ".join(words)
+
+def create_shopsense_reviews(output_path: str = DATA_PATH, n_reviews: int = DEFAULT_N_REVIEWS) -> Optional[pd.DataFrame]:
+    """
+    Generates a synthetic dataset of ShopSense reviews and saves it to a CSV file.
+    
+    Args:
+        output_path (str): The file path where the CSV will be saved.
+        n_reviews (int): Number of reviews to generate.
+        
+    Returns:
+        pd.DataFrame: The generated review dataset, or None if generation failed.
+    """
+    try:
+        np.random.seed(42)
+        random.seed(42)
+        
+        logger.info(f"Generating {n_reviews} synthetic reviews...")
+        data = []
+        for i in range(n_reviews):
+            cat = random.choice(CATEGORIES)
+            text = generate_review_text(cat)
             
-        # Ensure 'the' is everywhere
-        words.append('the')
-        
-        # Make "embroidery" rare overall, even in clothing
-        if cat == 'Clothing' and random.random() < 0.05:
-            words.append('embroidery')
+            row = {
+                'review_id': i,
+                'customer_id': random.randint(1000, 9999),
+                'product_id': random.randint(100, 999),
+                'category': cat,
+                'review_text': text,
+                'rating': random.randint(1, 5)
+            }
+            data.append(row)
             
-        text = " ".join(words)
+        df = pd.DataFrame(data)
         
-        row = {
-            'review_id': i,
-            'customer_id': random.randint(1000, 9999),
-            'product_id': random.randint(100, 999),
-            'category': cat,
-            'review_text': text,
-            'rating': random.randint(1, 5)
-        }
-        data.append(row)
+        # Inject specific targets for Q1 and Q2
+        df.loc[20, 'category'] = 'Electronics'
+        df.loc[20, 'review_text'] = 'the wireless earbuds battery life is very poor and bad'
         
-    df = pd.DataFrame(data)
-    
-    # Specific injection for questions:
-    
-    # For Q1 b: "wireless earbuds battery life poor" (Top-1 match ideally)
-    df.loc[20, 'category'] = 'Electronics'
-    df.loc[20, 'review_text'] = 'the wireless earbuds battery life is very poor and bad'
-    
-    # For Q2: Doc_42 (index 42) must be Clothing and contain 'fabric'
-    df.loc[42, 'category'] = 'Clothing'
-    df.loc[42, 'review_text'] = 'the fabric of this is great and the embroidery is nice'
-    
-    # For Q2: IDF('the') should be low (present in almost all)
-    # IDF('embroidery') should be high (present in very few)
-    
-    os.makedirs('week07/monday/data', exist_ok=True)
-    df.to_csv('week07/monday/data/ShopSense_Reviews.csv', index=False)
-    print("Dataset generated successfully.")
+        df.loc[42, 'category'] = 'Clothing'
+        df.loc[42, 'review_text'] = 'the fabric of this is great and the embroidery is nice'
+        
+        # Save to disk
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        df.to_csv(output_path, index=False)
+        logger.info(f"Dataset generated successfully and saved to {output_path}")
+        
+        return df
+        
+    except Exception as e:
+        logger.error(f"Failed to generate dataset: {str(e)}")
+        return None
 
 if __name__ == '__main__':
-    create_dataset()
+    create_shopsense_reviews()
