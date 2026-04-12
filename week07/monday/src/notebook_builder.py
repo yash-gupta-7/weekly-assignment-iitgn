@@ -66,7 +66,8 @@ electronics_matrix = tfidf_matrix[electronics_idx]
 avg_tfidf_electronics = np.array(electronics_matrix.mean(axis=0))[0]
 
 max_idx = np.argmax(avg_tfidf_electronics)
-print(f"Top word in Electronics: {vocab[max_idx]}\nAverage Output TF-IDF: {avg_tfidf_electronics[max_idx]:.4f}")"""))
+print(f"Top word in Electronics: {vocab[max_idx]}")
+print(f"Average Output TF-IDF: {avg_tfidf_electronics[max_idx]:.4f}")"""))
     cells.append(nbf.v4.new_markdown_cell("### Reason:\nThe word 'earbuds' ranks at the top because it has high term frequency in Electronics, but a very high global IDF since it doesn't appear in Clothing, Food, etc."))
 
     cells.append(nbf.v4.new_markdown_cell("## Q2 (a): Manual TF-IDF for 'fabric'"))
