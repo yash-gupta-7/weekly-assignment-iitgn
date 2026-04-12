@@ -1,0 +1,1001 @@
+review_id,review_text,pattern,category,rating
+0,this product is not bad at all,Negation,Home,2
+1,Wow great! Broke on day 1,Sarcasm,Home,2
+2,Product bahut accha hai lekin delivery late thi,Code-mixing,Food,4
+3,Returned it within 2 hours,Implicit,Home,5
+4,Way better than my previous Samsung,Comparative,Clothing,3
+5,Amazing camera quality but the battery is atrocious and customer support was unhelpful.,None,Electronics,5
+6,"The fabric is soft and comfortable, but the stitching is coming loose after one wash.",None,Clothing,2
+7,"Delicious food and great ambiance, however the service was extremely slow.",None,Food,3
+8,good delivery bad good good delivery item product good,Basic,Home,5
+9,bad item good bad,Basic,Food,2
+10,product okay item bad price delivery bad okay bad,Basic,Beauty,1
+11,price okay good good delivery,Basic,Home,5
+12,bad good item good price good okay product,Basic,Beauty,3
+13,okay bad good product delivery price delivery price okay item,Basic,Home,4
+14,okay okay bad bad price product product bad delivery bad,Basic,Home,4
+15,bad price product bad okay delivery good,Basic,Home,3
+16,good okay bad bad price price okay product okay price,Basic,Home,3
+17,bad good delivery item delivery okay product,Basic,Food,4
+18,bad price item good good good,Basic,Electronics,2
+19,bad product product okay product item bad item price,Basic,Home,2
+20,delivery product item bad product good item item price,Basic,Food,1
+21,bad item bad price price okay product product bad,Basic,Food,1
+22,bad price price price product item good okay price delivery,Basic,Food,5
+23,good price price good item,Basic,Beauty,5
+24,price item good product,Basic,Books,1
+25,bad item product price price delivery product product,Basic,Food,2
+26,price product item item good bad okay,Basic,Electronics,1
+27,item product good product good good good okay,Basic,Electronics,3
+28,bad product bad good price item item delivery,Basic,Electronics,5
+29,okay good product okay okay price good product product good,Basic,Clothing,3
+30,okay price bad bad item okay bad bad price,Basic,Clothing,3
+31,delivery delivery good product item good good,Basic,Food,3
+32,delivery bad item bad okay good okay price bad delivery,Basic,Books,3
+33,bad product delivery delivery product item bad,Basic,Clothing,5
+34,price product item delivery good,Basic,Clothing,5
+35,item price item good item delivery good good,Basic,Food,1
+36,bad good price bad product product okay product item price,Basic,Food,3
+37,product okay bad good product,Basic,Food,4
+38,okay delivery good item price price good,Basic,Home,5
+39,item good okay good bad,Basic,Books,1
+40,bad delivery product product price product,Basic,Home,5
+41,product item price good,Basic,Clothing,4
+42,bad price delivery bad bad,Basic,Clothing,2
+43,delivery bad product bad item,Basic,Books,2
+44,good product delivery good okay good price bad item product,Basic,Home,2
+45,good good price price item delivery product bad,Basic,Beauty,5
+46,good okay price price good,Basic,Beauty,4
+47,bad bad good delivery price okay,Basic,Books,4
+48,delivery price bad bad delivery bad okay bad,Basic,Food,1
+49,delivery okay product delivery bad bad,Basic,Food,2
+50,good price price bad delivery item okay delivery bad,Basic,Home,4
+51,product okay bad good,Basic,Clothing,4
+52,bad product okay price item price good price bad price,Basic,Home,5
+53,good product okay delivery item price,Basic,Electronics,3
+54,okay product bad product,Basic,Clothing,5
+55,item delivery product price,Basic,Clothing,3
+56,product okay good product okay okay delivery delivery okay,Basic,Books,1
+57,product okay product item bad product,Basic,Home,3
+58,product price product okay item good okay,Basic,Food,2
+59,delivery product okay item product item delivery,Basic,Home,4
+60,delivery product bad product product good price bad okay delivery,Basic,Books,4
+61,good bad item delivery good,Basic,Books,5
+62,price product delivery okay okay bad product,Basic,Food,3
+63,price price delivery bad delivery product item item price good,Basic,Beauty,1
+64,delivery product price product price,Basic,Beauty,1
+65,product delivery item delivery item price delivery,Basic,Clothing,2
+66,item delivery delivery bad delivery item bad,Basic,Food,5
+67,good okay bad okay item good bad,Basic,Books,5
+68,bad bad okay okay item good delivery okay delivery,Basic,Beauty,5
+69,good price product item price okay okay price delivery,Basic,Home,4
+70,delivery item product bad bad item good okay,Basic,Clothing,4
+71,delivery delivery delivery price price item price product product,Basic,Electronics,5
+72,product good item good,Basic,Home,2
+73,okay item okay price bad price okay,Basic,Home,1
+74,good good item price okay product delivery product delivery price,Basic,Food,5
+75,delivery product bad item good,Basic,Home,3
+76,item bad okay product price,Basic,Electronics,2
+77,good delivery price good good okay product price okay,Basic,Electronics,5
+78,bad product delivery bad product okay product delivery delivery,Basic,Clothing,1
+79,delivery okay okay okay item okay delivery delivery,Basic,Books,5
+80,item okay price item,Basic,Home,1
+81,item delivery price bad delivery,Basic,Clothing,2
+82,delivery item delivery product okay bad price bad,Basic,Electronics,4
+83,bad item product okay good delivery bad,Basic,Food,2
+84,okay bad bad product price,Basic,Clothing,3
+85,good price good delivery item delivery product product,Basic,Books,5
+86,item good okay okay bad product okay,Basic,Electronics,4
+87,item okay delivery okay product bad bad good,Basic,Electronics,3
+88,okay delivery price product bad,Basic,Beauty,1
+89,item delivery price item bad good bad bad bad,Basic,Clothing,3
+90,product good good good,Basic,Home,4
+91,product good price item price product,Basic,Clothing,1
+92,item okay price bad price good good,Basic,Clothing,5
+93,good product good bad item okay price,Basic,Home,4
+94,item okay product product,Basic,Books,1
+95,item item item price price okay product product delivery price,Basic,Home,2
+96,product bad good bad item,Basic,Clothing,2
+97,good item product okay bad,Basic,Food,4
+98,bad price good bad bad delivery product delivery bad,Basic,Books,4
+99,item product price delivery,Basic,Clothing,5
+100,good delivery product delivery,Basic,Beauty,3
+101,item item okay okay bad item,Basic,Beauty,2
+102,good good item okay bad good price,Basic,Beauty,4
+103,price product good delivery delivery product delivery bad item item,Basic,Food,2
+104,bad product product item good okay,Basic,Electronics,2
+105,okay good bad okay item product,Basic,Home,1
+106,delivery item item okay okay price okay,Basic,Home,5
+107,delivery good price item good item product item,Basic,Clothing,5
+108,delivery bad item price item product good,Basic,Food,5
+109,product bad bad item item good price price item,Basic,Home,4
+110,product bad price okay,Basic,Home,5
+111,bad delivery price bad item okay price item price,Basic,Electronics,1
+112,good delivery delivery okay delivery bad good delivery delivery product,Basic,Food,4
+113,item bad item okay item item item okay bad,Basic,Food,3
+114,bad okay delivery okay okay item price okay price,Basic,Home,5
+115,delivery price item good item product price price item item,Basic,Clothing,4
+116,good bad price price good delivery bad,Basic,Clothing,2
+117,product product delivery delivery price okay okay delivery,Basic,Beauty,4
+118,item item product bad product okay bad good price delivery,Basic,Home,4
+119,price item product price good delivery okay okay bad,Basic,Books,2
+120,okay product bad bad product okay product item,Basic,Books,5
+121,bad item bad bad good delivery price product,Basic,Electronics,4
+122,good price price okay price,Basic,Books,1
+123,bad delivery bad okay item bad product product price,Basic,Clothing,2
+124,good delivery okay good price delivery,Basic,Food,5
+125,price delivery delivery price,Basic,Food,1
+126,delivery product okay product product product delivery product delivery product,Basic,Books,2
+127,product okay item product delivery good okay delivery bad,Basic,Home,4
+128,delivery price okay item bad,Basic,Beauty,1
+129,bad delivery item delivery delivery,Basic,Food,1
+130,delivery item good delivery bad product,Basic,Electronics,5
+131,price price delivery okay delivery good item item product,Basic,Food,4
+132,bad okay product okay product item product price okay,Basic,Home,2
+133,bad good delivery price okay okay good price,Basic,Food,2
+134,price good bad item okay okay,Basic,Beauty,1
+135,product item product delivery price product delivery product price,Basic,Home,1
+136,good okay item price delivery good,Basic,Electronics,4
+137,okay price product good bad price price delivery good,Basic,Home,3
+138,product product good delivery bad,Basic,Books,4
+139,delivery bad delivery item product,Basic,Clothing,4
+140,price okay bad price good price bad good bad bad,Basic,Electronics,1
+141,price good okay delivery product good bad good okay,Basic,Food,1
+142,delivery item delivery item,Basic,Books,2
+143,item bad product delivery,Basic,Food,4
+144,product okay product good price delivery okay good product item,Basic,Home,4
+145,okay bad good product,Basic,Electronics,1
+146,item okay price item item product good product,Basic,Beauty,2
+147,product price item price item price okay delivery okay delivery,Basic,Books,4
+148,okay product okay bad price good,Basic,Clothing,4
+149,good item delivery okay good good price item product okay,Basic,Food,2
+150,product delivery price delivery price product okay product bad product,Basic,Clothing,1
+151,delivery okay item good bad,Basic,Beauty,1
+152,delivery delivery price delivery product,Basic,Clothing,3
+153,item product product product good bad delivery price okay,Basic,Electronics,5
+154,price item okay good product,Basic,Books,4
+155,good item okay item,Basic,Clothing,1
+156,okay delivery delivery item good,Basic,Books,1
+157,bad delivery good good,Basic,Books,3
+158,product item item bad delivery good item,Basic,Clothing,4
+159,product product item okay bad price,Basic,Food,2
+160,good okay bad good,Basic,Clothing,1
+161,okay good item item good item,Basic,Books,5
+162,item delivery delivery good price,Basic,Clothing,4
+163,item item good okay,Basic,Books,1
+164,product product okay good good okay delivery,Basic,Books,5
+165,item product okay item good item okay good,Basic,Books,1
+166,okay okay okay bad item good item price okay delivery,Basic,Home,3
+167,product bad good bad bad bad delivery good price product,Basic,Home,1
+168,delivery delivery item price item product product,Basic,Beauty,1
+169,price okay item item product delivery product okay good item,Basic,Electronics,4
+170,good delivery good price,Basic,Clothing,2
+171,good product okay product price delivery good price product bad,Basic,Food,2
+172,item bad good good price okay delivery item,Basic,Clothing,1
+173,good product price item product,Basic,Electronics,4
+174,okay bad okay okay product delivery,Basic,Electronics,1
+175,okay okay item okay bad delivery price product bad,Basic,Food,2
+176,product good okay price,Basic,Books,1
+177,product good product good item product okay good product,Basic,Clothing,1
+178,price price good product item good okay price okay,Basic,Books,2
+179,item bad good good delivery good delivery delivery price good,Basic,Books,2
+180,price product product bad bad product,Basic,Electronics,4
+181,delivery bad item okay product bad item bad,Basic,Beauty,1
+182,delivery bad bad price delivery price bad product item,Basic,Food,3
+183,item bad okay item price delivery delivery,Basic,Beauty,2
+184,price good item okay price,Basic,Beauty,2
+185,delivery delivery bad delivery bad price bad item price,Basic,Beauty,4
+186,delivery price price okay okay,Basic,Home,1
+187,bad price okay good price delivery,Basic,Clothing,2
+188,okay bad good price item delivery delivery item product,Basic,Electronics,3
+189,good bad bad price,Basic,Food,2
+190,item good okay okay good okay delivery item,Basic,Electronics,4
+191,delivery item item product,Basic,Books,3
+192,bad bad item product bad okay product good,Basic,Electronics,4
+193,good item item price item okay,Basic,Clothing,4
+194,good okay okay delivery okay good bad,Basic,Clothing,1
+195,product delivery delivery okay good item delivery bad delivery,Basic,Books,3
+196,price item bad good delivery price good,Basic,Books,5
+197,good bad good price item,Basic,Food,1
+198,item bad delivery bad okay delivery price okay good okay,Basic,Electronics,2
+199,delivery price okay price item item price,Basic,Home,3
+200,bad good okay item price bad okay good,Basic,Beauty,4
+201,product okay product okay product okay,Basic,Electronics,5
+202,delivery price product item,Basic,Beauty,2
+203,price price good product okay delivery product price good,Basic,Food,1
+204,product item good bad product okay price good,Basic,Beauty,3
+205,product price okay delivery product,Basic,Books,4
+206,okay okay bad price good bad item price,Basic,Books,2
+207,bad bad item price,Basic,Food,2
+208,product price bad good good bad,Basic,Books,3
+209,item good product delivery okay okay good item price,Basic,Books,4
+210,bad product product bad okay bad price delivery bad item,Basic,Electronics,3
+211,item okay delivery item product good,Basic,Electronics,5
+212,okay delivery item okay okay product,Basic,Beauty,4
+213,price product item product okay,Basic,Home,5
+214,delivery product bad price item price good good bad bad,Basic,Books,2
+215,price bad price item bad good,Basic,Beauty,5
+216,product item good okay item,Basic,Books,1
+217,product product product bad product price okay price,Basic,Clothing,1
+218,delivery good good product,Basic,Beauty,1
+219,bad bad product product good price item product,Basic,Food,2
+220,item delivery product okay good good,Basic,Books,4
+221,okay item okay bad price okay price,Basic,Clothing,5
+222,price good okay item okay item,Basic,Electronics,1
+223,item good good price price okay,Basic,Clothing,3
+224,price delivery price delivery bad bad price item price item,Basic,Home,3
+225,price item price bad,Basic,Clothing,2
+226,good bad product delivery product okay,Basic,Home,2
+227,delivery item price delivery,Basic,Books,1
+228,okay good good item okay okay okay item item delivery,Basic,Clothing,5
+229,product good price okay delivery okay price delivery,Basic,Home,3
+230,product okay good good product,Basic,Clothing,3
+231,item item product item okay product bad price delivery okay,Basic,Food,1
+232,item item item item item good,Basic,Beauty,4
+233,product price product delivery delivery product,Basic,Books,3
+234,product bad product price,Basic,Electronics,2
+235,product delivery product bad product product delivery bad,Basic,Books,3
+236,bad product product bad item okay okay bad item,Basic,Food,2
+237,price price delivery good good bad okay product,Basic,Clothing,5
+238,okay price item item item product price product,Basic,Electronics,2
+239,product product bad bad item bad price okay okay bad,Basic,Books,2
+240,item item item price delivery okay product item price,Basic,Beauty,4
+241,delivery price delivery okay okay product okay,Basic,Beauty,3
+242,product delivery bad delivery bad item bad,Basic,Clothing,4
+243,product product bad product,Basic,Books,1
+244,bad bad good okay item product good price,Basic,Electronics,4
+245,okay price price item bad,Basic,Electronics,2
+246,okay product price good product item,Basic,Electronics,2
+247,delivery good price okay delivery price good delivery delivery,Basic,Clothing,2
+248,price price price price good,Basic,Electronics,2
+249,product price okay item product item price good,Basic,Beauty,5
+250,item bad good bad item bad bad delivery,Basic,Clothing,2
+251,okay product bad product product okay okay okay okay good,Basic,Beauty,1
+252,item price good okay item,Basic,Home,4
+253,price okay delivery good product product,Basic,Food,2
+254,product item bad product,Basic,Books,2
+255,delivery product product price okay bad price item item,Basic,Clothing,4
+256,okay product price delivery delivery delivery delivery product,Basic,Clothing,5
+257,price good item product good item good item,Basic,Clothing,3
+258,bad item bad delivery item product delivery item,Basic,Food,5
+259,item good good okay item item product okay,Basic,Home,2
+260,okay delivery delivery product,Basic,Food,4
+261,okay product item good,Basic,Electronics,3
+262,price item okay bad,Basic,Home,4
+263,delivery price product okay price,Basic,Clothing,4
+264,item price okay good price price good,Basic,Home,4
+265,okay bad item item delivery bad good good okay product,Basic,Beauty,5
+266,okay okay bad item bad bad price delivery,Basic,Books,4
+267,delivery okay delivery price,Basic,Clothing,4
+268,bad good product item,Basic,Electronics,4
+269,product good delivery okay bad bad price good item,Basic,Home,1
+270,bad price product product delivery delivery,Basic,Food,5
+271,okay bad product bad okay,Basic,Beauty,2
+272,item product delivery bad,Basic,Beauty,2
+273,okay item price price product delivery okay okay bad,Basic,Food,4
+274,bad item bad bad price bad item,Basic,Home,3
+275,item price item good,Basic,Home,3
+276,bad okay good item okay,Basic,Home,5
+277,delivery bad bad product product price bad delivery,Basic,Beauty,4
+278,product bad bad price okay price bad bad delivery,Basic,Electronics,3
+279,price item bad product bad price item delivery okay,Basic,Clothing,4
+280,product okay okay price item delivery delivery delivery,Basic,Clothing,2
+281,price okay okay item bad bad,Basic,Clothing,1
+282,item product delivery okay bad bad,Basic,Electronics,5
+283,delivery item product product bad delivery price product,Basic,Books,3
+284,item delivery okay good item bad price,Basic,Home,4
+285,price item delivery good delivery good good good product,Basic,Home,4
+286,product good item okay,Basic,Books,3
+287,product price price product good item okay good,Basic,Home,4
+288,bad price good delivery product delivery price good good,Basic,Food,5
+289,bad product bad okay delivery,Basic,Electronics,4
+290,okay okay item price,Basic,Electronics,1
+291,okay delivery good price product,Basic,Home,5
+292,good okay item good,Basic,Clothing,2
+293,product good delivery product,Basic,Home,3
+294,item price good item good bad,Basic,Books,3
+295,product item bad price product bad item product bad delivery,Basic,Beauty,4
+296,price product delivery product,Basic,Books,3
+297,price okay item item delivery product item,Basic,Books,1
+298,delivery good price delivery item price good,Basic,Books,4
+299,bad good product product product price okay,Basic,Home,2
+300,bad price item okay price item product product good,Basic,Clothing,4
+301,okay bad good bad okay delivery bad okay,Basic,Electronics,3
+302,good good okay okay bad good,Basic,Books,1
+303,item item item good good,Basic,Books,2
+304,good product okay okay okay okay good price,Basic,Food,5
+305,product bad okay good okay,Basic,Home,2
+306,bad bad bad okay delivery okay price,Basic,Food,2
+307,product product bad good okay price okay product delivery,Basic,Beauty,5
+308,item item delivery product product okay,Basic,Books,2
+309,price bad okay price price okay product item,Basic,Electronics,1
+310,delivery okay bad delivery okay price bad price,Basic,Electronics,4
+311,product item price item product,Basic,Home,5
+312,delivery delivery good delivery delivery product good,Basic,Electronics,5
+313,bad product delivery delivery good price,Basic,Clothing,4
+314,product item price price okay good price,Basic,Clothing,4
+315,price item product good delivery product okay product good,Basic,Food,3
+316,product okay delivery price item good bad item item,Basic,Beauty,5
+317,product bad okay item product product bad price,Basic,Books,4
+318,good okay price good price good okay,Basic,Beauty,3
+319,delivery item okay good delivery item good,Basic,Books,4
+320,delivery good delivery product,Basic,Books,1
+321,delivery price delivery item item okay okay item delivery,Basic,Electronics,5
+322,bad product item good product bad product okay product,Basic,Food,2
+323,bad product delivery product delivery,Basic,Food,2
+324,bad okay item bad price item product product,Basic,Books,4
+325,okay good okay item bad product delivery price,Basic,Books,3
+326,good good good okay bad product item okay,Basic,Electronics,2
+327,product okay item item price,Basic,Home,1
+328,item item good okay item,Basic,Electronics,1
+329,price price item bad,Basic,Books,4
+330,price item item product okay delivery item,Basic,Beauty,4
+331,item delivery bad good,Basic,Books,3
+332,item bad item delivery delivery,Basic,Books,4
+333,item product bad item price item delivery delivery,Basic,Clothing,2
+334,item price good delivery delivery okay price,Basic,Food,2
+335,bad price good price good delivery bad,Basic,Books,2
+336,product okay product product bad good bad bad good,Basic,Clothing,4
+337,item product bad price okay product,Basic,Clothing,5
+338,item price delivery good delivery okay good bad product product,Basic,Electronics,4
+339,bad product delivery delivery product,Basic,Beauty,2
+340,good product product okay good delivery delivery,Basic,Clothing,2
+341,item bad price okay price okay good,Basic,Electronics,2
+342,delivery good price product product delivery delivery okay price delivery,Basic,Clothing,3
+343,bad delivery okay product item item okay,Basic,Home,4
+344,delivery good product delivery good price bad item price,Basic,Books,5
+345,bad product good product bad price bad,Basic,Electronics,2
+346,okay good product product good product delivery delivery item,Basic,Electronics,3
+347,product good item good,Basic,Electronics,4
+348,item item good okay good,Basic,Electronics,3
+349,okay good good okay delivery good okay price good delivery,Basic,Electronics,3
+350,price product product good item product bad okay bad delivery,Basic,Electronics,5
+351,product item bad price good good delivery,Basic,Clothing,4
+352,price okay good bad good item,Basic,Home,1
+353,delivery bad price good delivery price bad product,Basic,Electronics,1
+354,delivery okay good price price,Basic,Food,1
+355,okay bad product good price good okay,Basic,Books,5
+356,good price item okay product delivery,Basic,Electronics,1
+357,good product good bad price price okay okay product delivery,Basic,Clothing,5
+358,product good item product bad okay item,Basic,Electronics,4
+359,price bad okay product delivery,Basic,Beauty,5
+360,product good product delivery delivery good good item item,Basic,Food,4
+361,good product product bad good good good item,Basic,Home,3
+362,item delivery delivery bad good delivery,Basic,Beauty,4
+363,delivery good price okay item item,Basic,Food,3
+364,product product good item okay item,Basic,Books,3
+365,bad bad delivery price product good delivery good,Basic,Food,2
+366,price bad item okay bad price price item price delivery,Basic,Food,4
+367,bad bad price okay delivery product good,Basic,Home,5
+368,price bad delivery price price good item bad delivery,Basic,Electronics,3
+369,good item okay okay delivery delivery,Basic,Food,1
+370,item product item delivery bad,Basic,Electronics,4
+371,delivery bad good okay bad okay delivery price,Basic,Books,4
+372,good product delivery delivery good item,Basic,Books,2
+373,okay price price good bad,Basic,Electronics,5
+374,price price item product,Basic,Electronics,5
+375,item delivery product item product okay,Basic,Food,2
+376,item item price bad bad okay delivery product,Basic,Food,4
+377,okay item bad price good delivery good good item,Basic,Beauty,4
+378,okay item price bad okay bad,Basic,Beauty,4
+379,good delivery okay product,Basic,Books,2
+380,good delivery okay good bad okay item product,Basic,Electronics,3
+381,delivery bad price delivery item item,Basic,Electronics,3
+382,item delivery good good,Basic,Electronics,3
+383,delivery bad bad okay product price good product price good,Basic,Books,4
+384,bad product delivery good,Basic,Clothing,5
+385,delivery okay good item bad product delivery okay good product,Basic,Home,4
+386,okay price bad item bad,Basic,Books,5
+387,product bad okay okay item good bad good,Basic,Electronics,3
+388,product delivery bad price item,Basic,Home,4
+389,price delivery okay item,Basic,Books,1
+390,okay item okay bad good product good,Basic,Books,4
+391,delivery good price item delivery price price good product bad,Basic,Food,5
+392,delivery delivery delivery price product price okay price price bad,Basic,Clothing,2
+393,product delivery product price good,Basic,Beauty,5
+394,okay item good price delivery delivery price item bad,Basic,Books,5
+395,good bad bad item,Basic,Electronics,2
+396,okay product delivery okay,Basic,Home,1
+397,price delivery okay good product,Basic,Food,5
+398,delivery delivery price price okay,Basic,Home,2
+399,okay good okay good bad price delivery price product,Basic,Home,1
+400,product item price product okay,Basic,Home,5
+401,product bad okay product good delivery price price okay,Basic,Clothing,2
+402,price good product price price bad item price good delivery,Basic,Clothing,2
+403,okay okay product price delivery,Basic,Books,1
+404,product price item bad bad good bad good good,Basic,Electronics,4
+405,item okay bad okay price okay okay,Basic,Books,1
+406,item price product product bad good delivery okay okay price,Basic,Clothing,3
+407,okay price bad good,Basic,Home,3
+408,okay price price product,Basic,Clothing,3
+409,price bad price bad good bad bad,Basic,Books,4
+410,item price item product okay good okay item item,Basic,Books,1
+411,okay okay okay product,Basic,Books,2
+412,item good bad product price item good delivery,Basic,Beauty,4
+413,item product good item bad price okay,Basic,Electronics,3
+414,good item bad delivery item bad product,Basic,Clothing,5
+415,good okay item price,Basic,Beauty,1
+416,bad good okay item price product price product,Basic,Books,3
+417,item good price delivery item,Basic,Home,4
+418,delivery product product good delivery bad price price,Basic,Books,5
+419,bad good good product bad delivery bad product okay delivery,Basic,Home,2
+420,good okay okay okay bad item price delivery product item,Basic,Clothing,3
+421,good bad item product price good good,Basic,Electronics,3
+422,good okay item okay okay okay item product good bad,Basic,Electronics,1
+423,product product okay okay price,Basic,Electronics,3
+424,bad delivery price price good delivery okay bad item,Basic,Books,5
+425,product price bad okay delivery delivery okay delivery product,Basic,Clothing,1
+426,bad bad delivery delivery,Basic,Beauty,3
+427,item okay good delivery good product okay delivery item item,Basic,Clothing,3
+428,bad delivery delivery bad item,Basic,Home,5
+429,product bad delivery item product good,Basic,Books,1
+430,bad item item price,Basic,Food,1
+431,product okay bad price delivery product bad,Basic,Beauty,5
+432,good delivery delivery bad bad bad bad,Basic,Clothing,4
+433,okay good delivery delivery good price product product good,Basic,Home,3
+434,product price product product bad price,Basic,Food,2
+435,okay bad item product delivery okay good item product delivery,Basic,Beauty,5
+436,item product bad product item okay,Basic,Beauty,2
+437,product price bad product price okay,Basic,Electronics,4
+438,item bad good price delivery,Basic,Electronics,5
+439,product product delivery product price bad okay,Basic,Home,3
+440,delivery product price delivery okay product product,Basic,Clothing,3
+441,delivery price product item delivery delivery price bad good,Basic,Clothing,4
+442,delivery delivery item price price,Basic,Books,4
+443,product bad bad price okay price,Basic,Clothing,5
+444,bad okay delivery item price product,Basic,Food,2
+445,good price item price okay okay good delivery,Basic,Books,1
+446,price okay price price price,Basic,Beauty,3
+447,okay delivery delivery item product,Basic,Food,5
+448,okay good item bad delivery,Basic,Books,1
+449,delivery item delivery good product product okay price,Basic,Food,5
+450,good item delivery price price delivery item,Basic,Home,2
+451,product product bad product,Basic,Home,3
+452,okay good item okay good good,Basic,Books,4
+453,item item item item product good,Basic,Electronics,3
+454,okay bad price price okay bad delivery,Basic,Clothing,2
+455,bad good item good product,Basic,Books,2
+456,good price bad item good price product product good product,Basic,Books,1
+457,item good bad product bad product good,Basic,Clothing,4
+458,product product bad product good delivery good,Basic,Books,4
+459,product bad delivery item product delivery delivery price okay,Basic,Food,2
+460,okay good item bad price okay good,Basic,Electronics,5
+461,good good product item price delivery good delivery price,Basic,Home,3
+462,bad price okay item good bad good okay delivery,Basic,Home,4
+463,okay good delivery price good good,Basic,Food,4
+464,bad okay item product price good delivery bad okay,Basic,Home,1
+465,bad okay delivery delivery product delivery good,Basic,Beauty,3
+466,delivery price delivery good price item item item product,Basic,Food,2
+467,okay good product delivery price good price good okay good,Basic,Books,5
+468,product good price item delivery delivery,Basic,Home,1
+469,price product okay item product,Basic,Clothing,3
+470,item delivery item product,Basic,Beauty,1
+471,okay delivery item price good product bad delivery delivery,Basic,Books,3
+472,bad delivery okay okay bad item item okay delivery good,Basic,Home,2
+473,delivery item delivery item good item product,Basic,Beauty,2
+474,okay good item delivery,Basic,Home,4
+475,product product okay item bad product price okay good bad,Basic,Food,2
+476,okay delivery product delivery okay item good,Basic,Clothing,2
+477,bad okay delivery price okay item product good bad,Basic,Books,2
+478,delivery delivery okay bad bad,Basic,Books,1
+479,price okay item delivery,Basic,Food,5
+480,okay delivery good product product good price item product,Basic,Electronics,2
+481,good item item good price delivery item item,Basic,Home,4
+482,product bad delivery good product,Basic,Books,2
+483,price item okay price price delivery bad price,Basic,Electronics,1
+484,item good okay product delivery okay,Basic,Food,4
+485,item okay delivery item bad bad delivery product price,Basic,Clothing,1
+486,price product price item product,Basic,Electronics,5
+487,product delivery item product price product,Basic,Books,3
+488,delivery delivery okay delivery delivery item good bad product,Basic,Beauty,4
+489,bad delivery price product bad,Basic,Clothing,4
+490,product okay delivery good,Basic,Clothing,1
+491,item product product item bad product okay item delivery product,Basic,Electronics,2
+492,product price okay price price okay item good bad,Basic,Home,4
+493,price price item bad product product okay product,Basic,Food,5
+494,product delivery price okay bad product bad bad item,Basic,Clothing,4
+495,good bad bad bad delivery good item,Basic,Books,1
+496,good price product delivery product,Basic,Home,4
+497,product item product okay delivery okay bad bad good item,Basic,Food,4
+498,item okay okay price product okay okay,Basic,Food,1
+499,product item item delivery product good okay bad product price,Basic,Electronics,1
+500,price product okay price price,Basic,Electronics,1
+501,bad delivery good item delivery item item,Basic,Home,5
+502,good price bad item price bad price,Basic,Clothing,1
+503,item product bad product bad product delivery bad,Basic,Beauty,5
+504,product price delivery product price delivery bad item okay good,Basic,Beauty,4
+505,bad bad good delivery,Basic,Food,1
+506,okay item okay okay okay good,Basic,Beauty,2
+507,product product delivery product,Basic,Home,4
+508,delivery okay item okay product product bad price okay,Basic,Books,4
+509,product item item good okay delivery item price bad product,Basic,Food,5
+510,price product price good price good good product okay item,Basic,Clothing,1
+511,okay delivery price okay,Basic,Food,1
+512,price delivery good bad product bad good,Basic,Books,5
+513,delivery delivery delivery price price item item okay good,Basic,Clothing,4
+514,bad product price okay,Basic,Books,1
+515,product good product price okay item product okay product,Basic,Home,5
+516,item delivery price bad okay delivery product product,Basic,Beauty,5
+517,delivery good delivery price item okay,Basic,Home,1
+518,item good product good bad delivery,Basic,Beauty,5
+519,bad delivery product delivery price delivery product delivery,Basic,Beauty,1
+520,okay product price item item price item delivery,Basic,Clothing,1
+521,okay price product price good item,Basic,Clothing,5
+522,okay item product delivery,Basic,Books,2
+523,price product delivery good bad item item price bad delivery,Basic,Electronics,5
+524,good delivery bad bad bad product,Basic,Home,3
+525,price okay item item good price okay product,Basic,Electronics,1
+526,product bad delivery product item okay okay product,Basic,Clothing,5
+527,good bad price bad okay delivery okay delivery price good,Basic,Clothing,2
+528,item bad item bad bad,Basic,Electronics,5
+529,okay delivery good bad delivery,Basic,Food,1
+530,good product item product product okay bad good product,Basic,Electronics,1
+531,product good product good bad,Basic,Beauty,3
+532,item okay price product price,Basic,Food,5
+533,product bad good item price price bad delivery product,Basic,Clothing,4
+534,product delivery product item bad product price product good okay,Basic,Books,1
+535,good bad price item okay,Basic,Clothing,3
+536,product bad price product price,Basic,Electronics,5
+537,item good item good product delivery price delivery,Basic,Food,5
+538,item okay price product item price item delivery okay,Basic,Home,2
+539,delivery delivery product good good item bad price bad price,Basic,Beauty,4
+540,bad good delivery good item item okay,Basic,Books,3
+541,product okay okay bad product,Basic,Beauty,3
+542,bad item item product price okay,Basic,Beauty,5
+543,okay delivery item okay item,Basic,Beauty,2
+544,price product delivery okay good price,Basic,Books,1
+545,delivery item product bad,Basic,Books,1
+546,item delivery delivery product product,Basic,Clothing,1
+547,bad price good good,Basic,Clothing,2
+548,item product good bad okay,Basic,Food,2
+549,good okay price product item product product price,Basic,Clothing,5
+550,bad item good delivery price item bad delivery item product,Basic,Beauty,2
+551,bad good bad good bad price delivery okay,Basic,Beauty,3
+552,okay bad good product price item delivery,Basic,Food,2
+553,price okay price bad product bad price product,Basic,Books,5
+554,bad item item item okay good,Basic,Home,1
+555,price price delivery product product price item delivery,Basic,Beauty,3
+556,okay delivery product price price item bad okay delivery bad,Basic,Food,4
+557,bad okay price item good delivery bad good product,Basic,Books,2
+558,okay item bad okay bad product bad delivery price bad,Basic,Home,4
+559,bad delivery price bad bad bad product bad good,Basic,Electronics,3
+560,product product product delivery,Basic,Books,4
+561,price delivery okay okay price price product bad,Basic,Books,2
+562,price price bad bad product,Basic,Beauty,2
+563,item okay price good,Basic,Electronics,3
+564,okay product bad price product item,Basic,Books,2
+565,good product okay good okay price bad bad bad,Basic,Books,3
+566,okay bad okay okay delivery okay okay item,Basic,Beauty,5
+567,good product bad good bad bad item okay,Basic,Beauty,2
+568,delivery delivery item good okay,Basic,Home,2
+569,price delivery item delivery delivery,Basic,Food,4
+570,bad price good good bad bad,Basic,Home,1
+571,item product item okay okay item,Basic,Beauty,2
+572,bad good good price price bad product product bad delivery,Basic,Electronics,3
+573,okay item delivery item good product,Basic,Electronics,5
+574,product bad bad delivery okay product product,Basic,Electronics,5
+575,price good okay okay product product product okay price delivery,Basic,Home,1
+576,delivery item item bad delivery good,Basic,Food,1
+577,product price product good bad,Basic,Food,3
+578,good price item good,Basic,Food,2
+579,okay delivery good bad bad product price okay bad bad,Basic,Clothing,3
+580,good item bad good okay price price item price,Basic,Electronics,1
+581,item good price item product item,Basic,Home,2
+582,product item item product okay okay item delivery item,Basic,Home,1
+583,okay bad good item delivery good,Basic,Electronics,2
+584,item good price price item good,Basic,Beauty,3
+585,delivery product delivery item bad price item,Basic,Beauty,4
+586,bad delivery okay okay bad,Basic,Electronics,5
+587,product item delivery product product bad product,Basic,Food,5
+588,delivery okay delivery bad okay product product bad,Basic,Food,5
+589,item okay bad price good price bad good,Basic,Food,5
+590,delivery bad bad item okay okay delivery,Basic,Electronics,1
+591,item delivery okay delivery price good,Basic,Clothing,3
+592,okay item bad price bad okay good price delivery okay,Basic,Home,2
+593,bad price bad delivery good product bad,Basic,Food,5
+594,product okay okay product good price item,Basic,Beauty,5
+595,item okay okay good product price,Basic,Home,4
+596,product okay bad bad good,Basic,Beauty,2
+597,bad price product product product bad delivery bad item product,Basic,Food,1
+598,price price product good product product,Basic,Books,5
+599,good item okay item product okay price delivery good okay,Basic,Books,2
+600,good price item item okay product bad bad okay,Basic,Books,2
+601,item price product price bad item item delivery item,Basic,Clothing,4
+602,good product okay bad good delivery delivery,Basic,Beauty,3
+603,okay good price delivery bad,Basic,Electronics,3
+604,item item product okay product good item good delivery,Basic,Books,2
+605,bad good good bad good,Basic,Books,5
+606,delivery product item product bad okay product good price,Basic,Home,4
+607,product price delivery item product,Basic,Clothing,4
+608,item price okay okay product delivery,Basic,Food,4
+609,item delivery delivery good bad item,Basic,Beauty,3
+610,delivery item bad item,Basic,Food,4
+611,item price item item delivery,Basic,Beauty,2
+612,product okay item product price bad bad okay okay bad,Basic,Food,1
+613,item okay okay price okay okay delivery item,Basic,Food,4
+614,okay bad item okay item delivery okay item price,Basic,Food,1
+615,delivery price product item,Basic,Books,1
+616,good price bad okay delivery price,Basic,Electronics,2
+617,bad item item price bad good okay good okay product,Basic,Electronics,2
+618,bad okay item item bad,Basic,Beauty,1
+619,delivery delivery bad delivery,Basic,Electronics,3
+620,product delivery good product good delivery okay delivery price,Basic,Beauty,4
+621,okay delivery okay price price bad,Basic,Electronics,4
+622,delivery price product product good item okay item okay,Basic,Books,5
+623,bad good delivery okay item product item bad okay,Basic,Books,2
+624,bad okay item delivery item bad okay,Basic,Home,4
+625,delivery good good item item product bad,Basic,Beauty,5
+626,price item bad bad item product product good,Basic,Books,1
+627,okay okay okay product good okay price,Basic,Home,1
+628,delivery delivery product item price bad product bad,Basic,Beauty,2
+629,delivery good good price price price delivery good product,Basic,Books,1
+630,okay item okay delivery,Basic,Books,4
+631,bad item bad item delivery,Basic,Books,5
+632,product product okay price item,Basic,Books,3
+633,bad bad delivery product good product,Basic,Clothing,5
+634,good product product price,Basic,Books,5
+635,price good price product bad okay,Basic,Electronics,5
+636,good okay price item bad item item price good,Basic,Home,2
+637,price okay item delivery good,Basic,Books,5
+638,okay product bad price item delivery product price price,Basic,Clothing,2
+639,price price price bad okay okay good delivery item product,Basic,Electronics,3
+640,product bad bad bad price price okay item bad good,Basic,Clothing,5
+641,product bad good product price price item price,Basic,Food,1
+642,bad price price okay item price good okay price delivery,Basic,Home,4
+643,okay price price okay delivery delivery product delivery bad bad,Basic,Home,2
+644,bad delivery product bad item,Basic,Food,1
+645,product bad good good delivery,Basic,Food,2
+646,item product product okay delivery,Basic,Beauty,1
+647,item bad bad okay price price price,Basic,Food,3
+648,delivery price delivery good price,Basic,Home,3
+649,price item okay item bad okay good,Basic,Food,2
+650,delivery delivery okay price product item product product good,Basic,Electronics,5
+651,item delivery good price,Basic,Home,2
+652,item price good okay delivery price bad item,Basic,Food,5
+653,delivery okay bad okay price product,Basic,Electronics,4
+654,item product good item bad,Basic,Beauty,4
+655,price product good okay item bad product product,Basic,Electronics,3
+656,price good okay product product,Basic,Electronics,5
+657,delivery good good item okay,Basic,Home,3
+658,product delivery price product bad item good bad,Basic,Food,3
+659,item product bad price bad product,Basic,Electronics,1
+660,okay delivery price okay bad price price,Basic,Food,2
+661,product bad item delivery,Basic,Home,3
+662,delivery product item bad product item item product,Basic,Electronics,1
+663,bad item product item,Basic,Home,4
+664,bad bad good okay bad good product product okay good,Basic,Clothing,1
+665,okay bad product product,Basic,Beauty,5
+666,product product item price delivery okay good delivery okay,Basic,Clothing,4
+667,delivery delivery delivery good item good price,Basic,Electronics,4
+668,item item product product good delivery,Basic,Electronics,2
+669,item good delivery product delivery product okay delivery bad,Basic,Books,3
+670,price okay good item item product item bad,Basic,Clothing,4
+671,bad okay bad good item delivery delivery bad,Basic,Home,3
+672,price okay okay item product good bad bad,Basic,Food,3
+673,good okay item delivery good okay okay item price delivery,Basic,Home,2
+674,okay okay product price delivery,Basic,Beauty,3
+675,good bad item price price item delivery price good,Basic,Electronics,4
+676,okay delivery okay item bad product delivery price,Basic,Books,4
+677,good bad delivery okay okay item,Basic,Clothing,2
+678,item okay product price delivery,Basic,Food,4
+679,price product bad good price okay delivery okay item,Basic,Electronics,3
+680,good delivery delivery price item,Basic,Books,2
+681,delivery price bad okay,Basic,Electronics,2
+682,delivery item delivery bad price delivery price,Basic,Food,1
+683,price bad good okay price good okay good delivery,Basic,Clothing,4
+684,good item good item product okay product okay price okay,Basic,Home,3
+685,okay item delivery product bad,Basic,Electronics,2
+686,bad good product item bad,Basic,Books,2
+687,item bad price delivery product bad,Basic,Home,3
+688,product okay item good item product,Basic,Electronics,4
+689,okay good okay product,Basic,Home,5
+690,product product item okay okay bad delivery delivery,Basic,Home,2
+691,price delivery item good,Basic,Food,4
+692,delivery product good okay product delivery item price bad price,Basic,Beauty,4
+693,price okay product product delivery price,Basic,Clothing,1
+694,item good good item delivery bad okay,Basic,Electronics,1
+695,good good delivery delivery okay product delivery item,Basic,Clothing,2
+696,product bad bad bad item good bad,Basic,Food,5
+697,product delivery item delivery item bad product good price,Basic,Electronics,2
+698,delivery good product okay good item okay okay,Basic,Electronics,3
+699,good delivery delivery okay item product good delivery,Basic,Home,5
+700,price product good bad bad item okay product,Basic,Books,1
+701,bad price okay delivery product,Basic,Home,4
+702,delivery price price product product item delivery,Basic,Food,3
+703,okay okay item good product delivery okay price price bad,Basic,Home,1
+704,product product product okay item bad bad good item,Basic,Home,2
+705,price delivery bad price product good good good delivery item,Basic,Beauty,2
+706,price good good delivery price price product,Basic,Books,5
+707,product item okay delivery okay bad okay,Basic,Clothing,2
+708,product delivery bad item,Basic,Food,1
+709,price product good good item okay product,Basic,Food,2
+710,good delivery item price delivery bad item item product,Basic,Books,4
+711,item delivery price good product,Basic,Clothing,4
+712,product product price item good item price product okay okay,Basic,Books,1
+713,okay bad product product okay delivery bad product product product,Basic,Books,5
+714,price delivery product okay good item delivery bad good,Basic,Beauty,2
+715,bad bad delivery product price delivery,Basic,Clothing,5
+716,item delivery bad product item delivery price okay good,Basic,Books,2
+717,product delivery delivery delivery okay,Basic,Clothing,1
+718,bad item product bad delivery okay product,Basic,Clothing,4
+719,delivery good item item item price price bad product okay,Basic,Electronics,3
+720,bad price good price item product,Basic,Clothing,2
+721,product good price product price item price price,Basic,Home,1
+722,bad delivery bad product item product,Basic,Beauty,2
+723,delivery product bad okay product,Basic,Electronics,1
+724,okay good good good okay,Basic,Home,4
+725,good item bad bad bad good good price,Basic,Beauty,3
+726,price bad product good price good product okay delivery,Basic,Books,2
+727,item price price product bad item price product price,Basic,Clothing,3
+728,delivery product product delivery bad delivery,Basic,Home,4
+729,delivery okay okay good price bad,Basic,Electronics,5
+730,good price bad okay product good item,Basic,Home,1
+731,bad product price delivery good good item,Basic,Food,1
+732,delivery good item product good good,Basic,Food,3
+733,bad product price product item price item,Basic,Food,3
+734,okay delivery delivery good bad okay product,Basic,Books,4
+735,item item price okay product okay product price good item,Basic,Clothing,3
+736,good item delivery product bad good,Basic,Electronics,2
+737,product okay okay good product item price,Basic,Electronics,1
+738,delivery good bad delivery product item good,Basic,Electronics,3
+739,product item price delivery price good okay okay,Basic,Clothing,3
+740,good good delivery product item product price bad product,Basic,Home,3
+741,good good product item,Basic,Beauty,1
+742,good product good bad good okay delivery item,Basic,Home,2
+743,delivery good delivery good product,Basic,Food,4
+744,bad delivery okay delivery price product okay price,Basic,Food,3
+745,item okay price bad good bad good bad,Basic,Food,1
+746,okay product item item price good good delivery product delivery,Basic,Electronics,1
+747,price good good price,Basic,Books,5
+748,product price okay delivery delivery product bad product item,Basic,Clothing,3
+749,bad bad product product delivery product good,Basic,Food,3
+750,delivery okay good bad good item good okay delivery item,Basic,Books,5
+751,item product bad good good,Basic,Beauty,5
+752,product price item bad product,Basic,Food,2
+753,good okay bad bad,Basic,Books,3
+754,delivery delivery good delivery price bad delivery item,Basic,Clothing,5
+755,good bad item product,Basic,Home,1
+756,bad product okay delivery okay good delivery,Basic,Electronics,2
+757,bad price good product good item bad product bad okay,Basic,Books,5
+758,delivery product price bad good product good,Basic,Electronics,1
+759,good item okay delivery bad,Basic,Beauty,2
+760,product delivery product product bad price,Basic,Clothing,4
+761,bad okay item price bad item item good okay price,Basic,Electronics,1
+762,okay product price product bad,Basic,Beauty,5
+763,price okay good price delivery item okay okay,Basic,Food,3
+764,delivery delivery item bad item good delivery price good okay,Basic,Books,4
+765,price good product bad item item product price item,Basic,Clothing,5
+766,price okay delivery okay item,Basic,Books,2
+767,good product okay product item okay delivery product product,Basic,Electronics,2
+768,delivery delivery good price delivery good price product,Basic,Clothing,4
+769,good okay product okay,Basic,Beauty,3
+770,product product item delivery good,Basic,Beauty,3
+771,bad good item price product price,Basic,Food,4
+772,delivery delivery okay price item,Basic,Books,1
+773,bad good okay item item good product,Basic,Home,1
+774,delivery price item okay product product price price bad,Basic,Home,4
+775,good okay bad price good bad good,Basic,Beauty,5
+776,item price item product okay,Basic,Electronics,2
+777,item good okay item product okay good price bad,Basic,Beauty,3
+778,product okay okay product okay product product delivery,Basic,Books,2
+779,item item price okay delivery bad okay,Basic,Food,1
+780,delivery good okay item bad price,Basic,Beauty,1
+781,item bad bad product price delivery bad good price,Basic,Books,2
+782,good bad bad item good okay okay okay,Basic,Books,4
+783,price item good good price delivery price price,Basic,Home,5
+784,good delivery price okay product,Basic,Beauty,1
+785,price price delivery price product delivery delivery,Basic,Clothing,4
+786,okay good item good product good good,Basic,Beauty,4
+787,delivery item good good product product bad price,Basic,Beauty,4
+788,bad good delivery product price price,Basic,Home,5
+789,bad okay product price price okay bad,Basic,Food,2
+790,okay okay good okay okay item item bad price delivery,Basic,Clothing,1
+791,delivery okay delivery price okay price good,Basic,Clothing,5
+792,product bad okay price item okay price product,Basic,Clothing,5
+793,good okay price okay item product delivery,Basic,Books,1
+794,bad delivery okay item delivery,Basic,Beauty,4
+795,delivery okay item item good good,Basic,Beauty,5
+796,okay product product good product okay,Basic,Food,3
+797,item product bad good bad,Basic,Clothing,3
+798,product okay item item,Basic,Books,3
+799,product item product good item product,Basic,Beauty,1
+800,bad product bad item product okay good okay product price,Basic,Clothing,2
+801,okay item price item,Basic,Electronics,5
+802,product delivery product bad okay okay delivery delivery bad product,Basic,Clothing,3
+803,good product delivery good item okay,Basic,Electronics,2
+804,okay price bad bad item delivery delivery,Basic,Food,2
+805,product delivery item item item delivery good item,Basic,Food,1
+806,good good good okay,Basic,Books,2
+807,okay delivery price product delivery okay product good delivery,Basic,Clothing,5
+808,good product product okay bad,Basic,Electronics,1
+809,okay delivery good good,Basic,Books,3
+810,delivery good good delivery item good good,Basic,Books,5
+811,good okay good good good product,Basic,Food,3
+812,price bad okay good delivery price price okay,Basic,Electronics,5
+813,delivery delivery product item good,Basic,Food,2
+814,product good bad bad bad price item price good bad,Basic,Home,5
+815,delivery item product bad product good delivery price,Basic,Food,3
+816,bad bad good price good good good,Basic,Electronics,1
+817,okay okay delivery good item okay item delivery product delivery,Basic,Food,2
+818,item okay delivery bad good,Basic,Books,3
+819,delivery price okay good product product okay item product good,Basic,Clothing,3
+820,okay product good price price good price,Basic,Electronics,5
+821,bad delivery okay bad okay item,Basic,Books,5
+822,product product bad delivery product okay item product okay item,Basic,Electronics,4
+823,bad item good item bad price,Basic,Books,3
+824,good good good product,Basic,Books,5
+825,okay product bad product good,Basic,Beauty,2
+826,product item item item,Basic,Home,2
+827,product item bad okay price item,Basic,Food,3
+828,good item price okay okay okay item good item price,Basic,Clothing,5
+829,price bad item okay okay delivery,Basic,Books,4
+830,product product product product item delivery item okay,Basic,Clothing,4
+831,product okay product delivery bad good product,Basic,Clothing,4
+832,delivery okay delivery good price,Basic,Food,2
+833,okay okay price okay good bad,Basic,Home,1
+834,product product price good okay,Basic,Home,2
+835,bad item good product okay item,Basic,Home,2
+836,bad product product price okay okay product,Basic,Clothing,2
+837,item product bad item delivery product bad okay price bad,Basic,Beauty,4
+838,delivery delivery delivery item okay good price okay bad,Basic,Books,2
+839,price delivery product product bad item item okay okay,Basic,Books,3
+840,product okay delivery item,Basic,Electronics,3
+841,okay okay bad item product item price product,Basic,Clothing,2
+842,price product bad price delivery item price item,Basic,Home,5
+843,delivery price price delivery good bad item bad,Basic,Clothing,1
+844,product okay item okay delivery good bad okay delivery,Basic,Clothing,1
+845,bad product bad bad bad good delivery okay item,Basic,Home,2
+846,okay price bad bad good delivery bad,Basic,Home,4
+847,bad delivery price item good price good product,Basic,Electronics,5
+848,good price price product price okay delivery delivery bad item,Basic,Clothing,1
+849,price item delivery price price bad price bad,Basic,Beauty,1
+850,delivery okay delivery delivery,Basic,Home,4
+851,delivery bad okay bad bad price item bad product item,Basic,Electronics,1
+852,product good item item bad bad,Basic,Electronics,1
+853,price okay delivery delivery good price product delivery product price,Basic,Clothing,2
+854,price product bad okay product product price product item,Basic,Electronics,3
+855,price okay price okay price,Basic,Clothing,5
+856,okay price delivery okay price bad,Basic,Electronics,1
+857,product price delivery okay good price delivery,Basic,Electronics,5
+858,item okay delivery delivery price delivery delivery,Basic,Books,3
+859,bad good okay delivery item okay product delivery product,Basic,Books,1
+860,product delivery good okay product,Basic,Clothing,2
+861,product good bad product delivery product,Basic,Home,5
+862,delivery product delivery okay item,Basic,Home,2
+863,good bad product okay bad good okay okay okay,Basic,Food,3
+864,price bad price price product product price price bad product,Basic,Home,2
+865,good product product bad price,Basic,Clothing,1
+866,price good delivery item price,Basic,Beauty,3
+867,delivery item bad bad price delivery bad,Basic,Books,5
+868,item good delivery product price bad product okay okay,Basic,Electronics,1
+869,good price bad item bad,Basic,Electronics,1
+870,product item good good okay product product product,Basic,Beauty,3
+871,okay product good item good price item okay product,Basic,Electronics,5
+872,price product delivery good bad product okay okay okay,Basic,Home,2
+873,good bad bad item okay item good product,Basic,Electronics,2
+874,good good good good price delivery delivery,Basic,Electronics,2
+875,bad price product delivery bad okay price,Basic,Home,4
+876,delivery item price item price product,Basic,Clothing,3
+877,good bad bad good bad product item,Basic,Books,3
+878,good okay product item item delivery price,Basic,Clothing,4
+879,okay bad bad delivery,Basic,Books,1
+880,item bad price product product price item item okay,Basic,Home,2
+881,bad item good okay,Basic,Electronics,2
+882,product product okay product price delivery,Basic,Electronics,3
+883,good item product item product,Basic,Food,1
+884,product good price product price okay,Basic,Beauty,3
+885,price price delivery good price delivery bad delivery delivery,Basic,Electronics,3
+886,price okay okay bad price price good delivery,Basic,Electronics,1
+887,okay okay product price bad,Basic,Beauty,2
+888,item item delivery okay product good,Basic,Clothing,4
+889,good okay bad item okay bad product good okay,Basic,Beauty,3
+890,product item okay good okay item,Basic,Beauty,2
+891,product product price item product,Basic,Books,4
+892,okay item price item,Basic,Clothing,3
+893,price product okay bad okay,Basic,Beauty,3
+894,good good good good okay good product item,Basic,Food,1
+895,okay product delivery good delivery item,Basic,Food,4
+896,bad okay good price okay product item product product bad,Basic,Books,3
+897,delivery bad good price bad product item good okay good,Basic,Food,1
+898,item product price price product item product price okay,Basic,Electronics,2
+899,price product delivery good good bad delivery product bad,Basic,Books,2
+900,bad product product item,Basic,Food,2
+901,price item good delivery bad okay good price delivery,Basic,Home,4
+902,price item price product bad item delivery,Basic,Books,4
+903,okay good delivery item,Basic,Electronics,1
+904,delivery delivery product item okay item item,Basic,Beauty,4
+905,delivery price price price bad good good product,Basic,Books,3
+906,good price okay item item price okay product,Basic,Clothing,1
+907,bad delivery item item,Basic,Food,2
+908,bad price okay product delivery product good okay,Basic,Clothing,4
+909,okay okay price product okay item price bad bad,Basic,Food,3
+910,delivery product good bad product good okay price okay,Basic,Home,4
+911,item price okay bad product,Basic,Home,4
+912,delivery price good good item,Basic,Beauty,3
+913,bad item item price delivery delivery delivery item,Basic,Clothing,2
+914,delivery price product good good,Basic,Home,4
+915,delivery price delivery price delivery product price,Basic,Beauty,4
+916,delivery good good product,Basic,Beauty,5
+917,bad okay delivery product delivery item price bad okay delivery,Basic,Home,5
+918,delivery item okay delivery,Basic,Beauty,2
+919,delivery item okay bad bad,Basic,Home,1
+920,delivery okay product bad delivery okay bad delivery okay,Basic,Beauty,4
+921,price price item product price item delivery,Basic,Beauty,5
+922,delivery price good okay price bad good delivery product,Basic,Books,2
+923,bad product price price delivery price price okay price,Basic,Books,1
+924,item okay delivery price good bad item price product,Basic,Clothing,3
+925,product price product product item okay delivery,Basic,Electronics,2
+926,okay bad okay good okay delivery delivery good price,Basic,Electronics,3
+927,bad item okay okay product good,Basic,Beauty,4
+928,item bad delivery okay okay item delivery delivery bad item,Basic,Clothing,1
+929,good product good okay,Basic,Electronics,3
+930,good okay bad delivery product delivery price product delivery,Basic,Food,2
+931,okay bad delivery delivery product,Basic,Food,4
+932,okay delivery good item bad delivery item bad okay,Basic,Clothing,5
+933,good good price item item okay item,Basic,Home,2
+934,item delivery price product product price product price,Basic,Clothing,2
+935,price delivery bad good product good product price good,Basic,Electronics,2
+936,item good bad item price,Basic,Electronics,2
+937,product okay good product,Basic,Home,1
+938,item good okay okay,Basic,Books,4
+939,item delivery good product good price,Basic,Food,1
+940,bad delivery item good okay price,Basic,Books,1
+941,item okay item okay okay delivery delivery,Basic,Books,5
+942,delivery item item item item,Basic,Electronics,4
+943,delivery good product product okay price okay good product item,Basic,Beauty,2
+944,product price product product delivery product,Basic,Electronics,2
+945,product product good price item delivery price item,Basic,Food,2
+946,item price good price bad good delivery bad product price,Basic,Electronics,2
+947,good item okay product item price okay,Basic,Electronics,1
+948,okay price okay bad good,Basic,Beauty,4
+949,item bad bad delivery,Basic,Clothing,2
+950,okay okay bad product okay,Basic,Home,2
+951,product okay good good,Basic,Books,5
+952,bad price price good bad product,Basic,Books,3
+953,item delivery okay good good,Basic,Home,4
+954,item good good product price good item,Basic,Books,3
+955,product bad item delivery okay okay good product,Basic,Home,1
+956,delivery good item bad bad,Basic,Food,1
+957,price item good delivery price product product,Basic,Clothing,1
+958,good price item product delivery,Basic,Books,1
+959,price delivery bad delivery bad bad item,Basic,Beauty,2
+960,okay okay good good,Basic,Beauty,2
+961,price price bad item delivery price price product,Basic,Electronics,4
+962,product bad product okay bad price okay price good price,Basic,Home,4
+963,item price product okay price product delivery item,Basic,Beauty,3
+964,price product item price delivery item good price okay product,Basic,Beauty,5
+965,bad delivery product good item price item,Basic,Food,2
+966,delivery delivery product product bad,Basic,Home,2
+967,product okay delivery bad item okay bad price product bad,Basic,Food,1
+968,price product good bad item,Basic,Beauty,4
+969,item product item product item,Basic,Clothing,2
+970,product delivery good price,Basic,Home,5
+971,bad item delivery bad product price product item bad item,Basic,Electronics,2
+972,good okay product product delivery okay delivery,Basic,Home,2
+973,bad product item okay delivery price bad,Basic,Books,5
+974,price item okay okay okay price,Basic,Beauty,1
+975,good delivery price okay good bad bad okay product good,Basic,Books,4
+976,item good delivery price delivery bad item,Basic,Home,3
+977,delivery delivery item bad good product,Basic,Books,4
+978,delivery product product good good good okay,Basic,Home,2
+979,product delivery good delivery good product item good good good,Basic,Electronics,3
+980,okay good delivery bad product product good okay delivery price,Basic,Books,4
+981,good product product good item product good good,Basic,Clothing,3
+982,good delivery bad product product bad okay delivery item,Basic,Electronics,1
+983,good good good product item,Basic,Electronics,3
+984,delivery okay price delivery bad okay okay okay good,Basic,Beauty,3
+985,product bad bad delivery item good okay price,Basic,Electronics,2
+986,price delivery okay product product price product okay product,Basic,Food,2
+987,product okay bad item delivery good,Basic,Beauty,1
+988,price product product item bad,Basic,Electronics,2
+989,delivery price okay delivery bad bad price,Basic,Beauty,1
+990,good okay item good item product,Basic,Food,2
+991,okay price bad bad bad bad bad delivery bad bad,Basic,Beauty,2
+992,delivery price good product okay,Basic,Books,1
+993,price okay bad item okay okay bad item delivery product,Basic,Clothing,3
+994,price good bad price delivery bad okay,Basic,Electronics,5
+995,okay item product price delivery product,Basic,Beauty,1
+996,item delivery okay good delivery price delivery price price bad,Basic,Beauty,4
+997,delivery delivery product bad,Basic,Electronics,1
+998,delivery product item item item okay okay,Basic,Food,1
+999,item price item product product delivery product bad price,Basic,Food,1
