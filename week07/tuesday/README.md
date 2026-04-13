@@ -1,3 +1,6 @@
+## git link : 
+https://github.com/yash-gupta-7/weekly-assignment-iitgn/tree/main/week07/tuesday
+
 # Week 07 Tuesday: NLP Embeddings, Sentiment & Model Drift
 
 ## Project Title

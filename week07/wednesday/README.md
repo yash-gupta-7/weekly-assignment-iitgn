@@ -1,3 +1,6 @@
+## git link : 
+https://github.com/yash-gupta-7/weekly-assignment-iitgn/tree/main/week07/wednesday
+
 # Week 07 Wednesday: NLP Logic · Hard Patterns & Aspect Sentiment
 
 ## Project Title

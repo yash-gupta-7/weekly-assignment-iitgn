@@ -1,3 +1,6 @@
+## git link : 
+https://github.com/yash-gupta-7/weekly-assignment-iitgn/tree/main/week07/friday
+
 # Week 07 Friday: Production Sentiment Deployment · Cost & Constraints
 
 ## Project Title

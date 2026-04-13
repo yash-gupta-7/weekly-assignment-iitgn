@@ -1,3 +1,6 @@
+## git link : 
+https://github.com/yash-gupta-7/weekly-assignment-iitgn/tree/main/week07/monday
+
 # Week 07: NLP Foundations · TF-IDF from Scratch
 
 ## Project Title
