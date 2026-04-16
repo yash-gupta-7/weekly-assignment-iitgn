@@ -38,5 +38,5 @@ Real-world hospital datasets are often messy (inconsistent labeling, missing val
 
 ---
 ## 🔗 Git Resource
-- **Project Repository**: [GitHub Link](https://github.com/yash-gupta-7/weekly-assignment-iitgn)
+- **Project Repository**: [GitHub Link](https://github.com/yash-gupta-7/weekly-assignment-iitgn/tree/main/week-08/tuesday)
 
