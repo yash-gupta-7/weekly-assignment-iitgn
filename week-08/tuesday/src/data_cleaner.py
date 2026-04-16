@@ -15,22 +15,24 @@ def audit_data(df):
     
     # 2. Audit 'age' column
     # Should be numeric and within reasonable range (0-120)
-    if not np.issubdtype(df['age'].dtype, np.number):
-        issues['age_type'] = f"Non-numeric age detected: {df['age'].dtype}"
-    else:
-        outliers = df[(df['age'] < 0) | (df['age'] > 120)]
-        if not outliers.empty:
-            issues['age_outliers'] = f"Ages outside 0-120 found: {outliers['age'].unique()}"
+    age_numeric = pd.to_numeric(df['age'], errors='coerce')
+    if age_numeric.isnull().any():
+        issues['age_non_numeric'] = f"Found {age_numeric.isnull().sum()} non-numeric values in 'age'"
+    
+    outliers = age_numeric[(age_numeric < 0) | (age_numeric > 120)]
+    if not outliers.empty:
+        issues['age_outliers'] = f"Ages outside 0-120 found: {outliers.unique()}"
             
     # 3. Audit 'bmi' column
     # Look for missing, zeros, or extreme outliers
     if 'bmi' in df.columns:
-        null_bmi = df['bmi'].isnull().sum()
-        zero_bmi = (df['bmi'] == 0).sum()
-        extreme_bmi = df[(df['bmi'] < 10) | (df['bmi'] > 60)]['bmi'].count()
+        bmi_numeric = pd.to_numeric(df['bmi'], errors='coerce')
+        null_bmi = bmi_numeric.isnull().sum()
+        zero_bmi = (bmi_numeric == 0).sum()
+        extreme_bmi = bmi_numeric[(bmi_numeric < 10) | (bmi_numeric > 60)].count()
         if null_bmi > 0 or zero_bmi > 0 or extreme_bmi > 0:
             issues['bmi_issues'] = {
-                'missing': int(null_bmi),
+                'missing_or_non_numeric': int(null_bmi),
                 'zeros': int(zero_bmi),
                 'extreme_values': int(extreme_bmi)
             }
@@ -76,6 +78,7 @@ def clean_data(df):
     df_clean['department'] = df_clean['department'].str.lower().str.strip()
     
     # 3. Fix BMI (Impute missing with median, clip extreme outliers)
+    df_clean['bmi'] = pd.to_numeric(df_clean['bmi'], errors='coerce')
     bmi_median = df_clean['bmi'].median()
     df_clean['bmi'] = df_clean['bmi'].fillna(bmi_median)
     df_clean['bmi'] = df_clean['bmi'].clip(lower=10, upper=60)
@@ -88,6 +91,11 @@ def clean_data(df):
     df_clean['age'] = df_clean['age'].clip(lower=0, upper=100)
     
     # 5. Handle missing in other numeric columns
+    # First, try to convert columns that look numeric
+    for col in df_clean.columns:
+        if col not in ['gender', 'department', 'insurance_type', 'admission_date', 'patient_id']:
+            df_clean[col] = pd.to_numeric(df_clean[col], errors='coerce')
+            
     numeric_cols = df_clean.select_dtypes(include=[np.number]).columns
     for col in numeric_cols:
         df_clean[col] = df_clean[col].fillna(df_clean[col].median())
