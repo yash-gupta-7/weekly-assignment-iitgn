@@ -1,4 +1,5 @@
 # Week 08 Monday Daily Assignment - Time Series Analysis & Forecasting
+## Git_Link : https://github.com/yash-gupta-7/weekly-assignment-iitgn/tree/main/week-08/monday 
 
 ## Project Overview
 This project addresses two core business challenges for an e-commerce platform:
@@ -30,3 +31,8 @@ This project addresses two core business challenges for an e-commerce platform:
 ## Results Summary
 - **Sales Model**: A SARIMA(1,1,1)x(1,1,1,7) model captures the weekly seasonality and long-term trend of the e-commerce data.
 - **Sensor Model**: The Random Forest classifier predicts failures with a focus on minimizing missed failures (False Negatives) due to the high cost of emergency repairs vs. routine inspections.
+
+---
+## 🔗 Git Resource
+- **Project Repository**: [GitHub Link](https://github.com/yash-gupta-7/weekly-assignment-iitgn)
+

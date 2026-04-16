@@ -43,3 +43,8 @@ python3 src/data_generator.py
 python3 src/notebook_builder.py
 jupyter nbconvert --to notebook --execute --inplace notebooks/week07_tuesday_assignment.ipynb
 ```
+
+---
+## 🔗 Git Resource
+- **Project Repository**: [GitHub Link](https://github.com/yash-gupta-7/weekly-assignment-iitgn)
+

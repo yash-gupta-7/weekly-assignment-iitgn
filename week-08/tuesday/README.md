@@ -35,3 +35,8 @@ Real-world hospital datasets are often messy (inconsistent labeling, missing val
 - `/src`: Modular Python scripts for data cleaning and model building.
 - `/notebooks`: Fully executed analysis notebook.
 - `prompts.md`: AI dialogue and critique as per course policy.
+
+---
+## 🔗 Git Resource
+- **Project Repository**: [GitHub Link](https://github.com/yash-gupta-7/weekly-assignment-iitgn)
+

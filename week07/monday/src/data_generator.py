@@ -90,3 +90,51 @@ def create_shopsense_reviews(output_path: str = DATA_PATH, n_reviews: int = DEFA
 
 if __name__ == '__main__':
     create_shopsense_reviews()
+
+
+import sys
+
+def solve():
+    data = sys.stdin.read().split()
+    if not data:
+        return
+    
+    t = int(data[0])
+    idx = 1
+    
+    for _ in range(t):
+        n = int(data[idx])
+        idx += 1
+        stack = []
+        
+        for i in range(1, n + 1):
+            d = int(data[idx])
+            s = int(data[idx + 1])
+            idx += 2
+            destroyed = False
+            
+            while stack and stack[-1][0] == 1 and d == 0:
+                top_s = stack[-1][1]
+                if top_s == s:
+                    stack.pop()
+                    destroyed = True
+                    break
+                elif top_s < s:
+                    s += top_s
+                    stack.pop()
+                else:
+                    stack[-1][1] += s
+                    destroyed = True
+                    break
+            
+            if not destroyed:
+                stack.append([d, s, i])
+        
+        print(len(stack))
+        if stack:
+            print(" ".join(str(x[2]) for x in stack))
+        else:
+            print()
+
+if __name__ == "__main__":
+    solve()
