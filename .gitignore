@@ -5,3 +5,7 @@ __pycache__/
 data/*.csv
 .ipynb_checkpoints/
 .venv/
+*.docx
+~$*
+assignment_text.txt
+week-08/wednesday/data/
