@@ -12,6 +12,7 @@ This repository contains end-to-end solutions for weekly assignments at IIT Gand
 | :--- | :--- | :--- |
 | [**Monday**](./week-08/monday) | **Time Series Analysis** | Seasonal decomposition, Stationarity (ADF), and ARIMA/Prophet modeling. |
 | [**Tuesday**](./week-08/tuesday) | **Deep Learning from Scratch** | 3-layer NumPy NN, clinical cost optimization ($500 FN), and patient embeddings. |
+| [**Wednesday**](./week-08/wednesday) | **CNNs & Semantic Search** | MNIST CNN, filter visualization, and two-stage moderation pipeline using S-BERT. |
 
 ### 🔤 Week 07: NLP Foundations
 | Directory | Topic | Key Deliverables |
