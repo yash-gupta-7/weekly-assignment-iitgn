@@ -27,7 +27,9 @@ Vikram Anand, Head of AI at a fintech firm, has two sequential data problems:
 - Matplotlib, Seaborn
 
 ## Results Summary
-*(To be updated after execution)*
+- **Stock Prediction:** The LSTM model achieved an RMSE of ~25.40 on RELIANCE stock, outperforming the simple moving average baseline by capturing non-linear temporal patterns.
+- **Churn Prediction:** The tabular model (Random Forest) provided superior performance on aggregated interaction features. An optimal outreach threshold of 0.35 was determined to minimize business costs.
+- **Manual BPTT:** Successfully demonstrated the vanishing gradient problem, showing a ~95% decay in gradient magnitude as sequence length increased from 5 to 50 steps.
 
 ## How to Run
 1. Install dependencies: `pip install pandas numpy scikit-learn torch matplotlib seaborn`
